@@ -21,6 +21,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -44,13 +45,14 @@ a {
   background-color: lightgrey;
   justify-content: space-between;
   align-content: center;
+  padding: 0px 10px;
 }
 
 .left-links,
 .right-links {
   display: flex;
-  gap: 15px;
-  padding: 5px 10px;
+  gap: 20px;
+  padding: 0px 0px;
 }
 
 .header {
@@ -58,12 +60,13 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  outline: 2px solid red;
+  padding: 0px 10px;
+  /* outline: 2px solid red; */
 }
 
 .content {
   flex-grow: 1;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   justify-content: center;
   align-content: center;
 }
@@ -72,10 +75,13 @@ a {
 .buttons {
   display: flex;
   justify-content: center;
+  margin: 15px;
+  gap: 5px;
 }
 
 .logo {
   display: flex;
   justify-self: center;
   align-self: center;
+  margin: 15px;
 }
