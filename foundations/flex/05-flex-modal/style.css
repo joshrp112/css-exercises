@@ -22,7 +22,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   /* outline: 2px solid red; */
   display: flex;
-  padding: 15px;
+  padding: 16px;
   flex-direction: row;
   gap: 16px;
 }
@@ -91,7 +91,7 @@ button.cancel {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   padding: 0px;
   /* gap: 10px;
   flex: 1; */
@@ -104,10 +104,14 @@ button.cancel {
 }
 
 .modal-title {
-  font-size: larger;
+  font-size: 18px;
   font-weight: bold;
 }
 
-.buttons {
+/* .buttons {
   margin-top: 5px;
+} */
+
+.text {
+  margin-bottom: 16px;
 }
